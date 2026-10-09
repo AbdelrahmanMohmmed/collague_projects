@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5EFE7; /* Soft off-white primary background */
+    color: #3E5879; /* Neutral gray-blue text */
+    overflow-x: hidden;
+}
+
+/* Gradient Navigation Bar */
+.navlist {
+    background: linear-gradient(90deg, #e69966, #b97b51, #754e34);
+    background-size: 300% 300%;
+    animation: gradientMove 10s ease infinite;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Animated gradient background */
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Navigation links */
+.navlist a {
+    color: #ece4d9;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.navlist a:hover {
+    color: #ebd4c4;
+}
+
+.navlist a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #b9a891;
+    transition: width 0.3s ease;
+}
+
+.navlist a:hover::after {
+    width: 100%;
+}
+
+/* Search Bar Styling */
+.search input[type="text"] {
+    padding: 10px;
+    border: 2px solid #D8C4B6;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #d4cdb4;
+    color: #1a1710;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search input[type="text"]:focus {
+    border-color: #213555;
+    box-shadow: 0 0 10px rgba(33, 53, 85, 0.5);
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #f0e9e6;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    color: #3E5879;
+    text-align: center;
+}
+
+main h1 {
+    font-weight: 800;
+    font-size: 28px;
+    color: #213555;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Novel Table */
+.novel-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.novel-item {
+    width: 250px;
+    background-color: #ddd5c9de;
+    border-radius: 10px;
+    padding: 15px;
+    color: #3E5879;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.novel-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.novel-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.novel-item h3 {
+    font-weight: 600;
+    margin: 10px 0 5px;
+}
+
+.novel-item a {
+    color: #213555;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.novel-item a:hover {
+    color: #3E5879;
+}
+
+/* Buttons */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #3E5879, #213555);
+    color: #F5EFE7;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #213555, #3E5879);
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #213555;
+    color: #F5EFE7;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cool Effects for Fonts */
+h1, h3, a, button {
+    font-variant: small-caps;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}

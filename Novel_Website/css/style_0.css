@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5EFE7; /* Soft off-white primary background */
+    color: #3E5879; /* Neutral gray-blue text */
+    overflow-x: hidden;
+}
+
+/* Navigation Bar */
+.navlist {
+    background: linear-gradient(90deg, #e69966, #b97b51, #754e34);
+    background-size: 300% 300%;
+    animation: gradientMove 10s ease infinite;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.navlist a {
+    color: #ece4d9;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background 0.3s ease;
+}
+
+.navlist a:hover {
+    background: rgba(185, 123, 81, 0.2);
+    color: #ebd4c4;
+}
+main {
+    padding: 30px;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+h1, h3 {
+    color: #004080;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+.novel-table {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.novel-item {
+    width: 200px;
+    text-align: center;
+    color: #333;
+    transition: transform 0.3s ease;
+}
+
+.novel-item:hover {
+    transform: translateY(-5px);
+}
+
+.novel-item a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.novel-item a:hover {
+    color: #0073e6;
+}
+
+.novel-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.novel-item h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.novel-item h4 {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #666;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#next-chapter{ padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;}
+button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+    margin-top: 40px;
+}
+
+.novel-cover {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

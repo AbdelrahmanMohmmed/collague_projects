@@ -1,0 +1,106 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+    color: #222;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+/* Navigation links */
+a[href="profile.php"] {
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+a[href="profile.php"]:hover {
+    background-color: #0056b3;
+}
+
+a[href^="add_chapter.php"] {
+    width: 20%;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+a[href^="add_chapter.php"]:hover {
+    background-color: #218838;
+}
+
+/* Chapters list styles */
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+ul li {
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li strong {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+ul li p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #666;
+}
+
+/* No chapters message */
+p.no-chapters {
+    font-size: 1.5em;
+    color: #888;
+    text-align: center;
+    margin: 50px 0;
+}

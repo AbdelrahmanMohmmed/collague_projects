@@ -1,0 +1,198 @@
+"11. If so, explain what factor(s) and how it affects your sleep ?","13. If so, what do you do to go back to sleep ?","15. What do you think about these activities' effect, is it positive or negative on your sleep ?","17. If you have difficulty falling asleep, what do you do to fall asleep ? (do you force yourself to sleep, listen to music/podcast or do other activities). Please explain","19. If you have any sleep disorders, what do you do to overcome it and to cope with it ?","20. If you use electronic devices (e.g., phone, TV, laptop, etc...)"
+['sound'],['force myself to sleep'],negative,{'force myself to sleep'},no response,5.5
+['no respond'],['force myself to sleep'],negative,{'listen to Quran'},['do nothing'],0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['light'],no respond,negative,['no respond'],no response,5.0
+"['lack of sleep', 'light']",no respond,no response,{'force myself to sleep'},no response,9.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+"['lack of sleep', 'temperature']",['listen to Quran'],no response,['no respond'],no response,6.0
+"['lack of sleep', 'sound']",no respond,negative,{'force myself to sleep'},no response,4.5
+['light'],no respond,positive,"{'listen to Quran', 'listen to podcast'}",no response,5.0
+['light'],no respond,no response,['no respond'],no response,0.5
+"['overthinking', 'stress']",no respond,negative,['no respond'],no response,8.0
+['no respond'],no respond,negative,['no respond'],no response,0.5
+['no respond'],no respond,no response,"{'do other activities', 'listen to music', 'listen to podcast'}",no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,negative,['no respond'],no response,0.5
+['lack of sleep'],no respond,negative,['no respond'],['do nothing'],0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,"{'drink water', 'watch videos'}",no response,18.5
+['no respond'],no respond,no response,['no respond'],no response,8.0
+['light'],no respond,negative,['no respond'],no response,0.5
+['no respond'],no respond,negative,['no respond'],no response,0.5
+['light'],no respond,negative,['no respond'],no response,0.5
+['no respond'],no respond,no response,"{'listen to Quran', 'listen to podcast'}",no response,0.5
+['no respond'],no respond,negative,['no respond'],no response,7.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,{'listen to music'},no response,3.0
+['sound'],no respond,negative,{'listen to Quran'},['do nothing'],5.0
+['no respond'],no respond,negative,['no respond'],no response,0.5
+['light'],['try to sleep'],no response,{'force myself to sleep'},no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,"{'clear my mind', 'take a shower'}",['try to sleep'],0.5
+['no respond'],no respond,no response,"{'distract mind', 'clear my mind'}",no response,3.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+"['sleep environment', 'temperature', 'weather']",['force myself to sleep'],no response,['no respond'],no response,6.0
+"['light', 'sound']",['try to sleep'],no response,"{'use phone', 'force myself to sleep'}",['do nothing'],5.0
+['no respond'],no respond,negative,['no respond'],['do nothing'],0.5
+['no respond'],no respond,negative,['no respond'],['do nothing'],3.0
+"['light', 'sound']","['do nothing', 'force myself to sleep']",no response,"{'force myself to sleep', 'listen to music'}",no response,0.5
+['no respond'],no respond,no response,{'listen to podcast'},['drink water'],5.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,9.0
+['no respond'],no respond,negative,{'use phone'},no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,5.0
+"['lack of sleep', 'overthinking']",['force myself to sleep'],no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,6.0
+['sound'],"['drink water', 'eat']",no response,{'watch videos'},"['drink water', 'try to sleep']",0.5
+['no respond'],no respond,positive,['no respond'],no response,5.0
+['no respond'],no respond,negative,['no respond'],no response,7.0
+"['sound', 'temperature']",['use phone'],no response,{'use phone'},no response,8.0
+['sound'],no respond,positive,['no respond'],no response,7.0
+['no respond'],['do nothing'],no response,['no respond'],no response,13.0
+"['sleep environment', 'temperature']",['try to sleep'],no response,['no respond'],no response,0.5
+"['light', 'temperature']",no respond,both positive and negative,['no respond'],no response,6.5
+['no respond'],no respond,no response,['no respond'],no response,8.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['light'],no respond,negative,['no respond'],no response,0.5
+['no respond'],no respond,negative,['no respond'],['do nothing'],2.5
+['no respond'],no respond,negative,['no respond'],no response,0.5
+['no respond'],no respond,no response,{'listen to music'},no response,0.5
+"['disturbance', 'sound']",no respond,no response,{'listen to music'},no response,8.5
+['no respond'],no respond,no response,['no respond'],no response,22.5
+['no respond'],no respond,no response,"{'listen to music', 'watch videos'}","['sit in bed', 'stay in bed']",0.5
+['light'],['drink water'],positive,['no respond'],no response,8.0
+['no respond'],no respond,negative,{'listen to podcast'},['do nothing'],7.0
+['no respond'],no respond,no response,['no respond'],['do nothing'],0.5
+['no respond'],no respond,no response,['no respond'],no response,6.0
+['no respond'],"['watch something', 'watch videos']",no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['sleep environment'],['do nothing'],positive,{'watch videos'},['do nothing'],4.5
+['no respond'],no respond,negative,['no respond'],no response,2.5
+['no respond'],no respond,negative,"{'read', 'listen to Quran'}",no response,5.0
+['no respond'],"['drink water', 'force myself to sleep']",no response,{'force myself to sleep'},no response,6.0
+['no respond'],no respond,no response,{'force myself to sleep'},no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,3.5
+"['light', 'sleep environment', 'temperature']",no respond,no response,{'listen to Quran'},no response,8.0
+"['light', 'sleep environment']","['force myself to sleep', 'pray']",no response,"{'listen to music', 'drink water'}","['calm myself', 'drink lemon water', 'drink water', 'listen to music']",5.0
+['no respond'],['try to sleep'],no response,['no respond'],['do nothing'],0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,negative,['no respond'],no response,8.0
+['no respond'],no respond,no response,{'force myself to sleep'},no response,5.0
+['overthinking'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,17.5
+['no respond'],no respond,no response,"{'walk', 'force myself to sleep'}","['drink water', 'stay in bed', 'wake up at the same time']",4.0
+['no respond'],no respond,negative,['no respond'],no response,0.5
+['no respond'],no respond,both positive and negative,{'listen to Quran'},no response,1.0
+['no respond'],no respond,negative,['no respond'],no response,9.5
+['no respond'],no respond,positive,{'force myself to sleep'},['drink water'],0.5
+['weather'],['force myself to sleep'],positive,['no respond'],no response,0.5
+['sound'],no respond,negative,{'force myself to sleep'},no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],"['do nothing', 'force myself to sleep', 'try to sleep']",no response,"{'force myself to sleep', 'watch videos'}",no response,0.5
+['no respond'],no respond,no response,{'meditate'},no response,16.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['light'],no respond,negative,{'listen to podcast'},['think positive thoughts'],0.5
+['no respond'],no respond,negative,"{'imagine', 'distract mind'}",no response,0.5
+['no respond'],['watch something'],no response,['no respond'],no response,30.0
+['stress'],no respond,negative,{'listen to music'},no response,12.0
+['no respond'],no respond,no response,['no respond'],['lighten clothes'],2.0
+"['disturbance', 'stress']",['do nothing'],negative,{'listen to podcast'},['do nothing'],0.5
+['no respond'],['listen to sounds'],positive,{'force myself to sleep'},no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,8.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,9.0
+['sound'],no respond,no response,"{'force myself to sleep', 'wait'}",no response,5.5
+['no respond'],no respond,no response,['no respond'],no response,7.0
+"['light', 'sound', 'temperature']",no respond,negative,{'listen to ASMR'},no response,6.0
+['light'],no respond,negative,['no respond'],no response,2.0
+"['fear', 'sleep environment', 'weather']",['force myself to sleep'],no response,"{'listen to Quran', 'use phone', 'watch videos'}",no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,5.0
+['light'],no respond,negative,{'count numbers'},no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,4.0
+['light'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,negative,{'force myself to sleep'},no response,1.0
+['no respond'],"['drink water', 'force myself to sleep']",negative,{'read a story'},['read a story'],5.0
+['no respond'],no respond,no response,['no respond'],no response,4.0
+['no respond'],no respond,no response,{'listen to music'},no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,6.0
+"['sleep environment', 'temperature']",no respond,no effect,{'force myself to sleep'},no response,0.5
+['no respond'],['force myself to sleep'],negative,{'force myself to sleep'},no response,0.5
+['no respond'],no respond,negative,['no respond'],no response,3.0
+['light'],no respond,negative,{'force myself to sleep'},no response,0.5
+"['lack of sleep', 'light']",no respond,negative,['no respond'],no response,15.0
+['no respond'],"['force myself to sleep', 'think about dreams']",no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,1.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,negative,['no respond'],no response,0.5
+['no respond'],no respond,negative,['no respond'],no response,8.0
+['no respond'],['think about dreams'],positive,{'watch videos'},['do nothing'],7.0
+['no respond'],no respond,no response,['no respond'],no response,4.0
+['no respond'],no respond,negative,{'listen to Quran'},no response,4.0
+['no respond'],no respond,no response,['no respond'],['do nothing'],4.0
+['no respond'],no respond,negative,['no respond'],['do nothing'],10.5
+['weather'],no respond,no response,['no respond'],no response,10.0
+['no respond'],no respond,no response,{'force myself to sleep'},no response,12.0
+['stress'],no respond,positive,{'focus on breathing'},no response,0.5
+['no respond'],no respond,no response,{'take pills'},no response,0.5
+['overthinking'],['play games'],no response,['no respond'],no response,0.5
+['light'],['finish tasks'],positive,{'listen to music'},['try to sleep'],0.5
+['no respond'],no respond,negative,{'listen to Quran'},['listen to Quran'],10.0
+"['light', 'motion']","['do nothing', 'force myself to sleep']",no response,{'force myself to sleep'},no response,8.0
+['no respond'],no respond,negative,{'count numbers'},no response,1.0
+['no respond'],no respond,no response,['no respond'],no response,10.0
+['no respond'],no respond,no response,{'do other activities'},"['close eyes', 'rest eyes']",0.5
+['stress'],['force myself to sleep'],positive,{'organize sleeping place '},no response,0.5
+['sound'],no respond,negative,{'use phone'},no response,2.0
+['overthinking'],['do nothing'],positive,{'listen to Quran'},no response,1.0
+['light'],"['drink water', 'force myself to sleep']",no response,{'listen to Quran'},no response,0.5
+['light'],['force myself to sleep'],no effect,['no respond'],"['do nothing', 'try to overcome']",0.5
+['no respond'],no respond,no response,['no respond'],no response,5.0
+['no respond'],no respond,no response,['no respond'],no response,5.0
+['no respond'],no respond,positive,['no respond'],no response,0.5
+['no respond'],no respond,negative,{'force myself to sleep'},no response,0.5
+['no respond'],"['listen to Quran', 'listen to sounds']",negative,{'take a shower'},['try to sleep'],7.0
+['no respond'],no respond,no response,['no respond'],['do nothing'],0.5
+['no respond'],no respond,no response,['no respond'],no response,3.0
+['no respond'],no respond,no response,['no respond'],no response,4.0
+['sound'],no respond,negative,"{'listen to music', 'watch videos'}",no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,3.5
+['no respond'],no respond,both positive and negative,{'walk'},no response,5.0
+['no respond'],no respond,no response,['no respond'],no response,5.0
+"['caffeine', 'sound']",['force myself to sleep'],negative,{'listen to podcast'},['consult a doctor'],5.0
+['light'],"['force myself to sleep', 'pray']",negative,{'eat'},no response,5.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,both positive and negative,{'force myself to sleep'},['get rest'],0.5
+['lack of sleep'],"['listen to Quran', 'listen to sounds']",negative,{'listen to Quran'},['try to sleep'],2.5
+['disturbance'],no respond,no response,"{'do physical activity', 'relax', 'prepare sleep environment'}","['do physical activity', 'manage stress', 'try to sleep', 'wake up at the same time']",0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['stress'],"['use phone', 'watch something']",negative,{'prepare sleep environment'},no response,0.5
+"['sound', 'stress']",no respond,no response,['no respond'],no response,5.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,7.5
+"['temperature', 'weather']","['force myself to sleep', 'try to sleep']",negative,"{'eat', 'force myself to sleep', 'drink water'}",no response,1.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,negative,{'force myself to sleep'},['do nothing'],7.0
+['light'],"['calm myself', 'take a breath', 'try to sleep']",no response,{'listen to Quran'},['write to clear mind'],0.5
+['light'],"['force myself to sleep', 'play games', 'watch videos']",negative,"{'play video games', 'watch videos'}",no response,0.5
+['no respond'],['eat'],negative,{'do other activities'},"['do exercise', 'try to overcome']",9.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],['do nothing'],negative,['no respond'],no response,3.5
+['no respond'],no respond,negative,{'imagine'},['do nothing'],15.0
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['stress'],"['change clothes', 'force myself to sleep', 'sleep direction']",no response,['no respond'],"['avoid computer devices', 'rest eyes']",0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['light'],no respond,no response,{'use phone'},['do nothing'],0.5
+['no respond'],['watch videos'],no response,{'watch videos'},no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.5
+['no respond'],['listen to sounds'],negative,{'prepare sleep environment'},no response,0.5
+['no respond'],no respond,no response,['no respond'],no response,0.0
+['no respond'],no respond,no response,{'wait'},no response,0.0
+['sound'],no respond,negative,{'listen to Quran'},no response,0.0
