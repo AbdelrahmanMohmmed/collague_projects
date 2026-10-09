@@ -1,0 +1,12 @@
+.container{
+    box-shadow: 0 0 8px #463939;
+    padding: 3rem 2rem;
+}
+
+.text-decoration-none:hover{
+    text-decoration: underline !important;
+}
+nav{
+    padding: 12px;
+    box-shadow:0 0 8px #463939 ;
+}

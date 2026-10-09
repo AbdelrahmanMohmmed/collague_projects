@@ -1,0 +1,88 @@
+-- Create the database
+CREATE DATABASE NovelWebsite;
+USE NovelWebsite;
+
+-- Table for users
+CREATE TABLE Users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Table for admins
+CREATE TABLE Admins (
+    admin_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Table for novels
+CREATE TABLE Novels (
+    novel_id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(100),
+    description TEXT,
+    photo VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Table for chapters
+CREATE TABLE Chapters (
+    chapter_id INT AUTO_INCREMENT PRIMARY KEY,
+    novel_id INT NOT NULL,
+    chapter_number INT NOT NULL,
+    title VARCHAR(255),
+    content TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (novel_id) REFERENCES Novels(novel_id) ON DELETE CASCADE
+);
+
+-- Table for comments
+CREATE TABLE Comments (
+    comment_id INT AUTO_INCREMENT PRIMARY KEY,
+    novel_id INT,
+    chapter_id INT,
+    user_id INT,
+    admin_id INT,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (novel_id) REFERENCES Novels(novel_id) ON DELETE CASCADE,
+    FOREIGN KEY (chapter_id) REFERENCES Chapters(chapter_id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE SET NULL,
+    FOREIGN KEY (admin_id) REFERENCES Admins(admin_id) ON DELETE SET NULL
+);
+
+-- Table for likes
+CREATE TABLE Likes (
+    like_id INT AUTO_INCREMENT PRIMARY KEY,
+    novel_id INT,
+    chapter_id INT,
+    user_id INT,
+    admin_id INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (novel_id) REFERENCES Novels(novel_id) ON DELETE CASCADE,
+    FOREIGN KEY (chapter_id) REFERENCES Chapters(chapter_id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE SET NULL,
+    FOREIGN KEY (admin_id) REFERENCES Admins(admin_id) ON DELETE SET NULL
+);
+CREATE TABLE contact_us (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    subject VARCHAR(150) NOT NULL,
+    message TEXT NOT NULL,
+    submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Sample data insertion (optional)
+INSERT INTO Users (username, email, password) VALUES ('user1', 'user1@example.com', 'password123');
+INSERT INTO Admins (username, email, password) VALUES ('admin1', 'admin1@example.com', 'adminpassword');
+INSERT INTO Novels (title, author, description, photo) VALUES ('Fantasy Saga', 'Author One', 'An epic fantasy adventure.', 'fantasy_saga.jpg');
+INSERT INTO Chapters (novel_id, chapter_number, title, content) VALUES (1, 1, 'The Beginning', 'Once upon a time...');
+INSERT INTO Comments (novel_id, chapter_id, user_id, content) VALUES (1, 1, 1, 'Amazing start!');
+INSERT INTO Likes (novel_id, chapter_id, user_id) VALUES (1, 1, 1);
+

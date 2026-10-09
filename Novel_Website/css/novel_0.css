@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5EFE7; /* Soft off-white primary background */
+    color: #3E5879; /* Neutral gray-blue text */
+    overflow-x: hidden;
+}
+
+/* Gradient Navigation Bar */
+.navlist {
+    background: linear-gradient(90deg, #e69966, #b97b51, #754e34);
+    background-size: 300% 300%;
+    animation: gradientMove 10s ease infinite;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Animated gradient background */
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Navigation links */
+.navlist a {
+    color: #ece4d9;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.navlist a:hover {
+    color: #ebd4c4;
+}
+
+.navlist a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #b9a891;
+    transition: width 0.3s ease;
+}
+
+.navlist a:hover::after {
+    width: 100%;
+}
+main {
+    padding: 20px;
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #222;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+ul#chapters-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#chapters-list li {
+    margin: 8px 0;
+}
+
+ul#chapters-list a {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+ul#chapters-list a:hover {
+    text-decoration: underline;
+}
+
+/* Like and comment form */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Comments section */
+#comments-section {
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6;
+}
+
+.comment p {
+    margin: 5px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+    border-top: 4px solid #575757;
+}
